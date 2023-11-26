@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Марки машин</title>
+    <meta charset=""
+  </head>
+  <body>
+    <h2>Виберіть марку машини:</h2>
+    <form action="proc_form.py" method="post">
+      <label for="brand">Марка:</label>
+      <input type="text" id="brand" name="brand" required /><br />
+
+      <label for="model">Модель:</label>
+      <input type="text" id="model" name="model" required /><br />
+
+      <label>Тип кузова:</label>
+      <input type="checkbox" name="body_type" value="sedan" />Седан
+      <input type="checkbox" name="body_type" value="suv" />SUV
+      <input type="checkbox" name="body_type" value="coupe" />Купе<br />
+
+      <label for="year">Рік випуску:</label>
+      <select id="year" name="year">
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option></select
+      ><br />
+
+      <label>Тип двигуна:</label>
+      <input type="radio" name="engine_type" value="petrol" />Бензиновий
+      <input type="radio" name="engine_type" value="diesel" />Дизельний<br />
+
+      <input type="submit" value="Відправити" />
+    </form>
+  </body>
+</html>
