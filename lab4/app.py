@@ -5,7 +5,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import json
 
 app = Flask(__name__)
-app.secret_key = 'aboba'
+app.secret_key = 'sheva'
 
 
 def load_users():
