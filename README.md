@@ -18,3 +18,8 @@ lab4 <br />
 ![image](screenshots/4-1.png?raw=true)
 ![image](screenshots/4-2.png?raw=true)
 ![image](screenshots/4-3.png?raw=true)
+
+lab5 <br />
+![image](screenshots/5-1.png?raw=true)
+![image](screenshots/5-2.png?raw=true)
+![image](screenshots/5-3.png?raw=true)
