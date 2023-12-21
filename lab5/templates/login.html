@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title class="title">Login</title>
+  <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+
+<body>
+  <h1>Login</h1>
+  <form method="post" action="{{ url_for('login') }}" novalidate>
+    {% from "macros.html" import render_field %}
+    {{ render_field(form.username, class="form-control", placeholder="Username") }}
+    {{ render_field(form.password, class="form-control", placeholder="Password") }}
+    {{ render_field(form.remember) }}
+    <input type="submit" value="Sign in" class="btn btn-primary" />
+  </form>
+</body>
+
+</html>
