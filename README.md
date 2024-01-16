@@ -28,3 +28,7 @@ lab6 <br />
 ![image](screenshots/6-1.png?raw=true)
 ![image](screenshots/6-2.png?raw=true)
 ![image](screenshots/6-3.png?raw=true)
+
+lab7 <br />
+![image](screenshots/7-1.png?raw=true)
+![image](screenshots/7-2.png?raw=true)
