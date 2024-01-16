@@ -23,3 +23,8 @@ lab5 <br />
 ![image](screenshots/5-1.png?raw=true)
 ![image](screenshots/5-2.png?raw=true)
 ![image](screenshots/5-3.png?raw=true)
+
+lab6 <br />
+![image](screenshots/6-1.png?raw=true)
+![image](screenshots/6-2.png?raw=true)
+![image](screenshots/6-3.png?raw=true)
