@@ -52,6 +52,6 @@ lab10 <br />
 ![image](screenshots/10-4.png?raw=true)
 
 SR2 <br />
-![image](screenshots/SR2-1.png?raw=true)
-![image](screenshots/SR2-2.png?raw=true)
-![image](screenshots/SR2-3.png?raw=true)
+![image](screenshots/sr2-1.png?raw=true)
+![image](screenshots/sr2-2.png?raw=true)
+![image](screenshots/sr2-3.png?raw=true)
