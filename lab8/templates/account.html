@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card bg-dark text-white">
+                <div class="card-body">
+
+                    <h2 class="card-title text-center mb-4">Your Account Information</h2>
+
+                    <div class="user-info">
+                        <p class="text-info"><strong>Username:</strong> {{ current_user.username }}</p>
+                        <p class="text-info"><strong>Email:</strong> {{ current_user.email }}</p>
+                    </div>
+
+                    <hr class="bg-info">
+
+                    <h4 class="card-title text-center mt-4">Lorem Ipsum</h4>
+
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat ultrices ligula tempor
+                        condimentum. Nulla interdum tristique diam non tempus. Donec dolor velit, volutpat eu luctus at,
+                        pretium facilisis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tempor
+                        ac lorem quis sollicitudin. Pellentesque at condimentum tortor, at eleifend ex. Sed varius nibh
+                        a ex euismod, eu sodales lectus blandit. In congue non quam nec blandit. Nam dictum imperdiet
+                        risus, nec malesuada elit iaculis vitae. Donec sodales aliquet magna, et tempor libero ultrices
+                        non. Quisque ornare malesuada erat, quis molestie ligula ullamcorper ac. Donec pharetra varius
+                        est. Fusce consectetur vestibulum purus, eget finibus lacus mollis non. Interdum et malesuada
+                        fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Integer est urna,
+                        semper eu mollis id, laoreet in ante.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
