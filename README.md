@@ -32,3 +32,9 @@ lab6 <br />
 lab7 <br />
 ![image](screenshots/7-1.png?raw=true)
 ![image](screenshots/7-2.png?raw=true)
+
+lab8 <br />
+![image](screenshots/8-1.png?raw=true)
+![image](screenshots/8-2.png?raw=true)
+![image](screenshots/8-3.png?raw=true)
+![image](screenshots/8-4.png?raw=true)
