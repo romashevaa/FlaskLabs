@@ -44,3 +44,9 @@ lab9 <br />
 ![image](screenshots/9-2.png?raw=true)
 ![image](screenshots/9-3.png?raw=true)
 ![image](screenshots/9-4.png?raw=true)
+
+lab10 <br />
+![image](screenshots/10-1.png?raw=true)
+![image](screenshots/10-2.png?raw=true)
+![image](screenshots/10-3.png?raw=true)
+![image](screenshots/10-4.png?raw=true)
