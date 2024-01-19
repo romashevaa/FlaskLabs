@@ -3,7 +3,6 @@ from flask_restful import Api, Resource, reqparse
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-# оновлене ім'я бази даних
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///routes.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
@@ -11,7 +10,7 @@ api = Api(app)
 db = SQLAlchemy(app)
 
 
-class Route(db.Model):  # оновлено ім'я моделі
+class Route(db.Model): 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
     length = db.Column(db.Float, nullable=False)
@@ -21,7 +20,7 @@ class Route(db.Model):  # оновлено ім'я моделі
 with app.app_context():
     db.create_all()
 
-routes_bp = Blueprint('routes', __name__)  # оновлено ім'я Blueprint
+routes_bp = Blueprint('routes', __name__) 
 api_routes = Api(routes_bp)
 
 
@@ -85,7 +84,6 @@ api_routes.add_resource(RoutesResource, '/routes', endpoint='routes')
 @routes_bp.route('/')
 def get_routes():
     routes = Route.query.all()
-    # оновлено ім'я змінної
     return render_template('index.html', routes=routes)
 
 
@@ -94,7 +92,7 @@ def delete_route(route_id):
     route = Route.query.get_or_404(route_id)
     db.session.delete(route)
     db.session.commit()
-    return redirect(url_for('routes.get_routes'))  # оновлено ім'я функції
+    return redirect(url_for('routes.get_routes'))
 
 
 @routes_bp.route('/update/<int:route_id>', methods=['GET', 'POST'])
@@ -106,9 +104,8 @@ def update_route(route_id):
         route.length = request.form['length']
         route.difficulty = request.form['difficulty']
         db.session.commit()
-        return redirect(url_for('routes.get_routes'))  # оновлено ім'я функції
+        return redirect(url_for('routes.get_routes')) 
 
-    # оновлено ім'я змінної
     return render_template('edit_route.html', route=route)
 
 
