@@ -51,6 +51,23 @@ lab10 <br />
 ![image](screenshots/10-3.png?raw=true)
 ![image](screenshots/10-4.png?raw=true)
 
+lab11 <br />
+![image](screenshots/11-1.png?raw=true)
+![image](screenshots/11-2.png?raw=true)
+![image](screenshots/11-3.png?raw=true)
+![image](screenshots/11-4.png?raw=true)
+![image](screenshots/11-5.png?raw=true)
+![image](screenshots/11-6.png?raw=true)
+
+lab12.1 <br />
+![image](screenshots/12.1-1.png?raw=true)
+![image](screenshots/12.2-2.png?raw=true)
+
+lab12.2 <br />
+![image](screenshots/12.2-1.png?raw=true)
+![image](screenshots/12.2-2.png?raw=true)
+
+
 SR2 <br />
 ![image](screenshots/sr2-1.png?raw=true)
 ![image](screenshots/sr2-2.png?raw=true)
