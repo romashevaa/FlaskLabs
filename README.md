@@ -67,6 +67,17 @@ lab12.2 <br />
 ![image](screenshots/12.2-1.png?raw=true)
 ![image](screenshots/12.2-2.png?raw=true)
 
+lab13 <br />
+![image](screenshots/13-1.png?raw=true)
+![image](screenshots/13-2.png?raw=true)
+![image](screenshots/13-3.png?raw=true)
+![image](screenshots/13-4.png?raw=true)
+![image](screenshots/13-5.png?raw=true)
+
+lab14 <br />
+![image](screenshots/14-1.png?raw=true)
+![image](screenshots/14-2.png?raw=true)
+
 
 SR2 <br />
 ![image](screenshots/sr2-1.png?raw=true)
