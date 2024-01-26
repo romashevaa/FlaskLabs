@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="profile-section">
+                <div class="profile-header text-center">
+                    <h2 class="profile-title">Your Profile</h2>
+                    <div class="profile-image">
+                        {% if current_user.image_file %}
+                        <img src="{{ url_for('static', filename='../static/profile_images/' + current_user.image_file) }}"
+                            alt="Profile Image" class="img-fluid">
+                        {% else %}
+                        <div class="default-profile-img bg-light"></div>
+                        {% endif %}
+                    </div>
+                    <p class="profile-username">{{ current_user.username }}</p>
+                    <p class="profile-email">{{ current_user.email }}</p>
+                </div>
+
+                <div class="profile-details">
+                    <p><strong>About Me:</strong> {{ current_user.about_me or 'Not provided' }}</p>
+                    <p><strong>Last Seen:</strong> {{ current_user.last_seen.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="update-section">
+                <h3 class="update-title">Update Your Account</h3>
+                <form method="POST" action="" enctype="multipart/form-data">
+                    {{ form.hidden_tag() }}
+
+                    <div class="form-group">
+                        {{ form.username.label(class="form-control-label") }}
+                        {{ form.username(class="form-control") }}
+                    </div>
+
+                    <div class="form-group">
+                        {{ form.email.label(class="form-control-label") }}
+                        {{ form.email(class="form-control") }}
+                    </div>
+
+                    <div class="form-group">
+                        {{ form.password.label(class="form-control-label") }}
+                        {{ form.password(class="form-control") }}
+                    </div>
+
+                    <div class="form-group">
+                        {{ form.about_me.label(class="form-control-label") }}
+                        {{ form.about_me(class="form-control") }}
+                    </div>
+
+                    <div class="form-group">
+                        <label for="profile_picture" class="form-control-label">Choose Profile Picture:</label>
+                        {{ form.picture(class="form-control-file", id="profile_picture") }}
+                    </div>
+
+                    <div class="form-group">
+                        {{ form.submit(class="btn btn-primary") }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
